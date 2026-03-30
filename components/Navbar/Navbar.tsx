@@ -17,6 +17,8 @@ const Navbar = () => {
 
     const navLinks = [
         { href: '/', label: 'Home' },
+        { href: '/projects', label: 'Projects' },
+        { href: '/expertise', label: 'Expertise' },
         {
             href: '/about-us',
             label: 'About',
@@ -25,9 +27,7 @@ const Navbar = () => {
                 { href: '/careers', label: 'Careers' },
             ]
         },
-        { href: '/projects', label: 'Projects' },
         { href: '/media-awards', label: 'Media & Awards' },
-        { href: '/expertise', label: 'Expertise' },
     ]
 
     useEffect(() => {

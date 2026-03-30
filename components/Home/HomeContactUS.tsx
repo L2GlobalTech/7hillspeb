@@ -28,6 +28,7 @@ const HomeContactUS = () => {
                                 CONTACT US
                             </h4>
                             <h2 className='text-4xl lg:text-5xl font-semibold leading-tight mb-6 tracking-normal lg:tracking-[-4%]'>
+                                {/* eslint-disable-next-line react/no-unescaped-entities */}
                                 Let's Build <br /> Something Great.
                             </h2>
                             <p className='text-white text-lg leading-relaxed tracking-normal lg:tracking-[-4%] max-w-xl'>
@@ -106,10 +107,10 @@ const HomeContactUS = () => {
                                 <div>
                                     <h5 className='text-lg font-semibold tracking-normal lg:tracking-[-4%] mb-1'>Email</h5>
                                     <a
-                                        href="mailto:sales@7hillspeb.com"
+                                        href="mailto:7hillspebsolutions@gmail.com"
                                         className='text-white tracking-normal lg:tracking-[-4%] hover:underline transition-colors inline-block'
                                     >
-                                        sales@7hillspeb.com
+                                        7hillspebsolutions@gmail.com
                                     </a>
                                 </div>
                             </motion.div>

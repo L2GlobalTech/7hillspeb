@@ -63,11 +63,11 @@ const Footer = () => {
                         <h3 className='text-xl font-bold mb-6'>Quick Links</h3>
                         <ul className='space-y-4'>
                             {[
-                                { name: 'About Us', href: '/#about' },
-                                { name: 'Projects', href: '/#projects' },
-                                { name: 'Expertise', href: '/#expertise' },
+                                { name: 'About Us', href: '/about-us' },
+                                { name: 'Projects', href: '/projects' },
+                                { name: 'Expertise', href: '/expertise' },
                                 { name: 'Contact', href: '/contact-us' },
-                                { name: 'Awards', href: '/#recognition' }
+                                { name: 'Awards', href: '/media-awards' }
                             ].map((item) => (
                                 <li key={item.name} className='flex items-center gap-2 group cursor-pointer'>
                                     <ChevronRight className='w-4 h-4 text-[#1C9BE0] group-hover:translate-x-1 transition-transform' />
@@ -133,10 +133,12 @@ const Footer = () => {
                             <li className='flex items-center gap-3 group'>
                                 <Mail className='w-5 h-5 text-[#1C9BE0] shrink-0' />
                                 <a
-                                    href="mailto:info@7hillepeb.com"
+                                    href="mailto:7hillspebsolutions@gmail.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className='text-white/50 text-sm hover:text-white transition-colors'
                                 >
-                                    info@7hillepeb.com
+                                    7hillspebsolutions@gmail.com
                                 </a>
                             </li>
                         </ul>

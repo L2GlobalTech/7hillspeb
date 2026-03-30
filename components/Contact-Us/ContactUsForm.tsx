@@ -100,12 +100,12 @@ const ContactUsForm = () => {
                                 <div>
                                     <h5 className='text-lg text-black font-semibold mb-1 tracking-normal lg:tracking-[-4%]'>Email</h5>
                                     <a
-                                        href="mailto:sales@7hillspeb.com"
+                                        href="mailto:7hillspebsolutions@gmail.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className='text-[#A2A1A1] tracking-normal lg:tracking-[-4%] hover:text-primary transition-colors inline-block'
                                     >
-                                        sales@7hillspeb.com
+                                        7hillspebsolutions@gmail.com
                                     </a>
                                 </div>
                             </motion.div>
@@ -145,10 +145,10 @@ const ContactUsForm = () => {
                                     <p className='text-[#A2A1A1] text-sm leading-relaxed tracking-normal lg:tracking-[-4%] mb-2 max-w-sm'>
                                         For discussions and quotations regarding industrial or infrastructure projects.
                                     </p>
-                                    <a href="mailto:projects@7hillspeb.com"
+                                    <a href="mailto:7hillspebsolutions@gmail.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className='text-primary hover:underline font-semibold text-sm'>projects@7hillspeb.com</a>
+                                        className='text-primary hover:underline font-semibold text-sm'>7hillspebsolutions@gmail.com</a>
                                 </div>
                             </motion.div>
 
