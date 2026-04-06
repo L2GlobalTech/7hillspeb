@@ -25,7 +25,8 @@ const ContactUsForm = () => {
                                 Get in Touch
                             </h2>
                             <p className='text-[#A2A1A1] text-lg leading-relaxed tracking-normal lg:tracking-[-4%] max-w-xl'>
-                                Get in touch with us and let’s discuss how we can support your next infrastructure or industrial project.
+                                {/* Get in touch with us and let’s discuss how we can support your next infrastructure or industrial project. */}
+                                Get in touch with us and let’s discuss how we can support your next future project.
                             </p>
                         </div>
 
@@ -54,14 +55,15 @@ const ContactUsForm = () => {
                                     <MapPin className='w-6 h-6 text-primary' />
                                 </div>
                                 <div>
-                                    <h5 className='text-lg text-black font-semibold mb-1 tracking-normal lg:tracking-[-4%]'>Corporate Office</h5>
+                                    <h5 className='text-lg text-black font-semibold mb-1 tracking-normal lg:tracking-[-4%]'>Corporate</h5>
                                     <a
                                         href="https://www.google.com/maps/search/7Hills+Industrial+Area,+Hyderabad"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className='text-[#A2A1A1] tracking-normal lg:tracking-[-4%] hover:text-primary transition-colors inline-block'
                                     >
-                                        7Hills Industrial Area, Hyderabad, India
+                                        {/* 7Hills Industrial Area, Hyderabad, India */}
+                                        Kodad, Suryapet district, Telangana, India
                                     </a>
                                 </div>
                             </motion.div>
@@ -130,7 +132,7 @@ const ContactUsForm = () => {
                                     </p>
                                 </div>
                             </motion.div>
-                            <motion.div
+                            {/* <motion.div
                                 variants={{
                                     hidden: { opacity: 0, x: -20 },
                                     visible: { opacity: 1, x: 0 }
@@ -150,7 +152,7 @@ const ContactUsForm = () => {
                                         rel="noopener noreferrer"
                                         className='text-primary hover:underline font-semibold text-sm'>7hillspebsolutions@gmail.com</a>
                                 </div>
-                            </motion.div>
+                            </motion.div> */}
 
                             <motion.div
                                 variants={{
@@ -165,7 +167,7 @@ const ContactUsForm = () => {
                                         { Icon: Linkedin, href: "#", name: 'LinkedIn' },
                                         { Icon: Facebook, href: "#", name: 'Facebook' },
                                         { Icon: Instagram, href: "#", name: 'Instagram' },
-                                        { Icon: Youtube, href: "#", name: 'YouTube' }
+                                        // { Icon: Youtube, href: "#", name: 'YouTube' }
                                     ].map(({ Icon, href, name }) => (
                                         <a
                                             key={name}

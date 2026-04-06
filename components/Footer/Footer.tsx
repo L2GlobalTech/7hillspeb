@@ -118,7 +118,8 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     className='text-white/50 text-sm hover:text-white transition-colors'
                                 >
-                                    7Hills Industrial Area, Hyderabad
+                                    {/* 7Hills Industrial Area, Hyderabad */}
+                                    Kodad, Suryapet district, Telangana, India
                                 </a>
                             </li>
                             <li className='flex items-center gap-3 group'>

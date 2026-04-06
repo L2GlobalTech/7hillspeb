@@ -39,7 +39,7 @@ const MediaAwardsContainer = () => {
             <TrustedBy title='Featured in' logos={logos} />
             <Recognition />
             <Certifications />
-            <GenericCTA title='Have a press inquiry?' description='Our communications team is available for interviews, facility tours, and technical insights regarding the steel industry.' buttonText='Get in touch' />
+            <GenericCTA title='Have a press inquiry?' description='Please contact our sales team to receive comprehensive project details and structural specifications.' buttonText='Get in touch' />
         </>
     )
 }

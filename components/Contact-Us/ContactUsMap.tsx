@@ -25,7 +25,7 @@ const ContactUsMap = () => {
                     {/* Map Iframe */}
                     <div className='w-full h-[400px] lg:h-[500px] bg-gray-100 relative'>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3160407062!2d78.40804554999999!3d17.4122998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1709400000000!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30524.02000067649!2d79.9419594103143!3d16.99900461467686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3502557bd86187%3A0x2d61225ca7dbad8f!2sKodad%2C%20Telangana%20508206!5e0!3m2!1sen!2sin!4v1775473688974!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
