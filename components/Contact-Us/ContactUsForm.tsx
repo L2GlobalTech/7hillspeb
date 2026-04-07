@@ -85,7 +85,9 @@ const ContactUsForm = () => {
                                         className='text-[#A2A1A1] tracking-normal lg:tracking-[-4%] hover:text-primary transition-colors inline-block'
                                     >
                                         +91 9515605777
-                                    </a>, {" "}
+                                    </a><span className='text-[#A2A1A1]'>
+                                        , {" "}
+                                    </span>
                                     <a
                                         href="tel:+919515609777"
                                         className='text-[#A2A1A1] tracking-normal lg:tracking-[-4%] hover:text-primary transition-colors inline-block'
