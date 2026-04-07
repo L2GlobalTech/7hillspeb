@@ -124,12 +124,21 @@ const Footer = () => {
                             </li>
                             <li className='flex items-center gap-3 group'>
                                 <Phone className='w-5 h-5 text-[#1C9BE0] shrink-0' />
-                                <a
-                                    href="tel:+919876543210"
-                                    className='text-white/50 text-sm hover:text-white transition-colors'
-                                >
-                                    +91 98765 43210
-                                </a>
+                                <div className='flex items-center gap-1'>
+                                    <a
+                                        href="tel:+919515605777"
+                                        className='text-white/50 text-sm hover:text-white transition-colors'
+                                    >
+                                        +91 9515605777
+                                    </a>
+                                    <span className='text-white/50 hover:text-white transition-colors'>,</span>
+                                    <a
+                                        href="tel:+919515609777"
+                                        className='text-white/50 text-sm hover:text-white transition-colors'
+                                    >
+                                        +91 9515609777
+                                    </a>
+                                </div>
                             </li>
                             <li className='flex items-center gap-3 group'>
                                 <Mail className='w-5 h-5 text-[#1C9BE0] shrink-0' />
@@ -156,7 +165,7 @@ const Footer = () => {
                 >
                     <p>© 2026 7Hills PEB. All Rights Reserved.</p>
                     <p className='flex items-center gap-1'>
-                        Made with <Heart className='w-3 h-3 text-red-500 fill-red-500 animate-[heartbeat_1s_ease-in-out_infinite]' /> by <span className='text-white font-medium underline decoration-white/30 hover:decoration-white transition-all cursor-pointer'>Ascendtis</span>.
+                        Made with <Heart className='w-3 h-3 text-red-500 fill-red-500 animate-[heartbeat_1s_ease-in-out_infinite]' /> by <Link href="https://ascendtis.com" target="_blank" className='text-white font-medium underline decoration-white/30 hover:decoration-white transition-all cursor-pointer'>Ascendtis.</Link>
                     </p>
                 </motion.div>
             </div>

@@ -81,10 +81,16 @@ const ContactUsForm = () => {
                                 <div>
                                     <h5 className='text-lg text-black font-semibold mb-1 tracking-normal lg:tracking-[-4%]'>Phone</h5>
                                     <a
-                                        href="tel:+919876543210"
+                                        href="tel:+919515605777"
                                         className='text-[#A2A1A1] tracking-normal lg:tracking-[-4%] hover:text-primary transition-colors inline-block'
                                     >
-                                        +91 98765 43210
+                                        +91 9515605777
+                                    </a>, {" "}
+                                    <a
+                                        href="tel:+919515609777"
+                                        className='text-[#A2A1A1] tracking-normal lg:tracking-[-4%] hover:text-primary transition-colors inline-block'
+                                    >
+                                        +91 9515609777
                                     </a>
                                 </div>
                             </motion.div>
